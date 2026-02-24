@@ -1,0 +1,5 @@
+typer[all]
+rich
+pyyaml
+watchdog
+tqdm
