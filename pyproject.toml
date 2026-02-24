@@ -1,0 +1,23 @@
+[project]
+name = "smartfileorganizer"
+version = "0.1.0"
+description = "智能文件自动整理工具 - CLI 文件管理大师"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.9"
+dependencies = [
+    "typer[all]>=0.12.0",
+    "rich>=13.7.0",
+    "pyyaml>=6.0.1",
+    "watchdog>=4.0.0",
+    "tqdm>=4.66.0"
+]
+
+[project.scripts]
+sfo = "smartfileorganizer.cli:app"
+
+[project.urls]
+Homepage = "https://github.com/你的用户名/smartfileorganizer"
+
+[tool.setuptools.packages.find]
+where = ["src"]
