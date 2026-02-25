@@ -30,3 +30,8 @@
 ```bash
 git clone https://github.com/你的用户名/smartfileorganizer.git
 cd smartfileorganizer
+# 创建特性分支
+git checkout -b feature/自定义功能名
+# 编写代码后提交
+git add .
+git commit -m "feat: 新增XXX功能"
